@@ -438,3 +438,135 @@ a::after {
     font-weight: 600;
     line-height: 26px;
 }
+
+/* ------Feadback------ */
+.feedback {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: #2E2100;
+}
+
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback .feaback-item {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    transition: all 0.5s ease;
+    transform: translateX(-100%);
+}
+
+.feedback .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 72px;
+    object-fit: cover;
+}
+
+.feaback-item .info .member-name {
+    color: #F7F7F7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42;
+    /* 141.667% */
+}
+
+.feaback-item .info .desc {
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+    /* 185.714% */
+}
+
+.feaback-item .dots {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 28px;
+}
+
+.feaback-item .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background: #634700;
+
+}
+
+.feaback-item .dot.active {
+    background: #FFB900;
+}
+
+.feedback .content {
+    width: 25%;
+    margin-left: 250px;
+}
+
+.feedback .content blockquote {
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54;
+}
+
+/* ======fearture=== */
+.feature {
+    margin-top: 135px;
+    padding: 65px 0;
+
+}
+
+.feature .images img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+
+}
+
+.feature .feature-body {
+    display: flex;
+    align-items: center;
+}
+
+.feature .images {
+    display: flex;
+    gap: 16px;
+}
+
+.feature .images .lower {
+    margin-top: 34px;
+}
+
+.feature .content {
+    width: 40%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature .content .desc {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 16px;
+    /* 175% */
+}
+
+.feature .content a {
+    margin-top: 60px;
+    background-color: #FFB900;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
